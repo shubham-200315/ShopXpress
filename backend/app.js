@@ -49,10 +49,15 @@ app.use("/api/v2/coupon", coupon);
 app.use("/api/v2/payment", payment);
 app.use("/api/v2/withdraw", withdraw);
 
-app.use(express.static(path.join(__dirname,"../frontend/build")));
-app.get("*", (req,res)=>{
-  res.sendFile(path.resolve(__dirname,"../frontend/build/index.html"))
-})
+// app.use(express.static(path.join(__dirname,"../frontend/build")));
+// app.get("*", (req,res)=>{
+//   res.sendFile(path.resolve(__dirname,"../frontend/build/index.html"))
+// })
+
+
+  app.use(express.static('frontend/build'));
+
+  app.get('*', (req,res) => res.sendFile(path.resolve(__dirname, 'frontend', 'build','index.html')));
 
 
 // it's for ErrorHandling

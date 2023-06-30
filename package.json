@@ -1,8 +1,8 @@
 {
   "name": "eshop-tutorial",
   "version": "1.0.0",
-  "description": "@copyright by becodemy 2023",
-  "main": "backend/server.js",
+  "description": "",
+  "main": "server.js",
   "engines": {
    "node": "18.16.0"
   },
