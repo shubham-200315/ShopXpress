@@ -53,17 +53,20 @@ run the script at the first level:
 
 ```terminal
 // in the root level
-$ cd server
+$ cd backend
 $ echo "JWT_SECRET=YOUR_JWT_SECRET" >> src/.env
 ```
+
+## Socket usage(PORT: 4000)
+
 
 ### Start
 
 ```terminal
-$ cd server   // go to server folder
+$ cd backend   // go to server folder
 $ npm i       // npm install packages
 $ npm run dev // run it locally
-$ npm run build // this will build the server code to es5 js codes and generate a dist file
+$ npm run build // this will build the server code to es6 js codes and generate a dist file
 ```
 
 ## Deploy Server to [Render](https://ecommerce-spensechallengesubmission.onrender.com)
