@@ -28,7 +28,7 @@ $ git clone https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmissio
 
 ## Prerequisites
 - [MongoDB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
-- [Node](https://nodejs.org/en/download/) ^10.0.0
+- [Node](https://nodejs.org/en/download/) ^18.16.0
 - [npm](https://nodejs.org/en/download/package-manager/)
 
 
@@ -66,76 +66,86 @@ $ npm run dev // run it locally
 $ npm run build // this will build the server code to es5 js codes and generate a dist file
 ```
 
-## Deploy Server to [Heroku]()
-```terminal
-$ npm i -g heroku
-$ heroku login
-...
-$ heroku create
-$ npm run heroku:add <your-super-amazing-heroku-app>
-// remember to run this command in the root level, not the server level, so if you follow the documentation along, you may need to do `cd ..`
-$ pwd
-/Users/<your-name>/mern
-$ npm run deploy:heroku
-```
+## Deploy Server to [Render](https://ecommerce-spensechallengesubmission.onrender.com)
 
-### After creating heroku
-
-if using webpack:
-remember to update the file of [client/webpack.prod.js](https://github.com/amazingandyyy/mern/blob/master/client/webpack.prod.js)
-```javascript
- 'API_URI': JSON.stringify('https://your-super-amazing-heroku-app.herokuapp.com')
-```
-if using parcel
-remember to update the file of [client/.env.production](https://github.com/amazingandyyy/mern/blob/master/client/.env.production.js)
-```
- REACT_APP_API_URI=https://your-super-amazing-heroku-app.herokuapp.com
-```
-# Dependencies(tech-stacks)
-Client-side | Server-side
---- | ---
-axios: ^0.15.3 | bcrypt-nodejs: ^0.0.3
-babel-preset-stage-1: ^6.1.18|body-parser: ^1.15.2
-lodash: ^3.10.1 | cors: ^2.8.1
-react: ^16.2.0 | dotenv: ^2.0.0
-react-dom: ^16.2.0 | express: ^4.14.0
-react-redux: ^4.0.0 | jwt-simple: ^0.5.1
-react-router-dom: ^4.2.2 | mongoose: ^4.7.4
-redux: ^3.7.2 | morgan: ^1.7.0
-redux-thunk: ^2.1.0 |
 
 # Screenshots of this project
 
-User visit public and Home page
-![User visit public and Home page](http://i.imgur.com/ORCGHHY.png)
+Complete functionality
 
-User can sign in or sign up
-![User can sign in or sign up](http://i.imgur.com/rrmbU5I.png)
 
-After signing in user can go to account route and make request to token-protected API endpoint
-![After signing in user can go to account route](http://i.imgur.com/FzLB51u.png)
 
-## Standard
+https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/9e75bb16-5db2-41cc-9474-26029d1d5bda
 
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-## BUGs or comments
 
-[Create new Issues](https://github.com/amazingandyyy/mern/issues) (preferred)
 
-Email Me: amazingandyyy@gmail.com (welcome, say hi)
+
+
+
+
+![Screenshot 2023-06-30 145116](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/99c52287-d4c7-48cc-b2de-aebb202101e1)
+
+
+![Screenshot 2023-06-30 145127](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/54eef73a-5733-4fe4-a1fa-0f50fd4bca2f)
+
+![Screenshot 2023-06-30 145134](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/821bc5ab-6823-46b9-bae8-0292d1c261b4)
+
+
+![Screenshot 2023-06-30 145155](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/2dc3bfac-2742-4571-9ad3-c304cf2f6058)
+
+
+![Screenshot 2023-06-30 145346](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/c500b79c-e503-41fd-8e94-839c64abce9b)
+
+![Screenshot 2023-06-30 145415](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/3c294474-6cad-4f1a-909a-a601d044a2fa)
+
+
+![Screenshot 2023-06-30 145536](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/3f015e00-09c6-489c-8040-8ab81c39be6c)
+
+
+![Screenshot 2023-06-30 145547](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/b07634ed-aab1-44f6-8ce7-afd93db0c8e3)
+
+
+![Screenshot 2023-06-30 145555](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/8eaf409d-7dca-4baa-8362-258d5a422634)
+
+![Screenshot 2023-06-30 145624](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/708ed7ca-6102-4785-aea2-31aa52a389cd)
+
+
+![Screenshot 2023-06-30 145645](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/e364dff2-f48f-4596-805e-61837e4fff83)
+
+
+![Screenshot 2023-06-30 145738](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/070a86f0-d4b8-4795-8022-f9828ce70850)
+
+
+![Screenshot 2023-06-30 145759](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/fb5a7b6e-0e6f-4ceb-8bcf-b2817626f849)
+
+
+
+![Screenshot 2023-06-30 145820](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/3f2045ed-defc-4ba9-935f-8a9c652959ca)
+
+
+
+![Screenshot 2023-06-30 145905](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/0a142e14-5c21-420a-9681-24677beda057)
+
+
+![Screenshot 2023-06-30 145927](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/526b144f-dfe2-415e-a5ac-8ce4b8b26811)
+
+
+
+![Screenshot 2023-06-30 150007](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/afa03a02-76f9-41f8-99b0-645e550a0f01)
+
+
+
+![Screenshot 2023-06-30 150033](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/63834aba-d53c-45a5-bfff-a8f4fd16a167)
+
+![Screenshot 2023-06-30 150108](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/16fabbe2-e0bc-44aa-8815-b82a71030a13)
+
+![Screenshot 2023-06-30 150114](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/2033a633-0af5-4782-9a5e-3a0cca720124)
+
+
+
+![Screenshot 2023-06-30 150126](https://github.com/shubham-200315/Ecommerce-SpenseChallengeSubmission/assets/105916104/043f136a-605f-4d59-82ec-a5609d1c6f88)
+
 
 ## Author
-[Amazingandyyy](https://amazingandyyy.com)
-
-I recently launch my monthly mentorship program, feel free to reach out and see what we can grow together:
-
-<a href="https://mentorcruise.com/mentor/andychen/"> <img src="https://cdn.mentorcruise.com/img/banner/fire-sm.svg" width="240" alt="MentorCruise"> </a>
-
-## Join the growing community
-
-[![Star History Chart](https://api.star-history.com/svg?repos=amazingandyyy/mern&type=Date)](https://star-history.com/#amazingandyyy/mern&Date)
-
-
-### License
-[MIT](https://github.com/amazingandyyy/mern/blob/master/LICENSE)
+[shubham-200315] (https://github.com/shubham-200315)
