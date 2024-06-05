@@ -1,5 +1,5 @@
 <h1 align="center">
-🌐 Ecommerce-SpenseChallengeSubmission
+🌐 ShopXpress
 </h1>
 <p align="center">
 MongoDB, Expressjs, React/Redux, Nodejs
